@@ -6,16 +6,6 @@ import glob as g
 from verificador import verificar
 from atualizar_banco import atualizar
 
-#############################################
-# FUNÇÃO dms_para_dd:                       |
-# PARÂMETROS: coordenada em (DMS) e A Refe- |
-# rência da coordenada (REF).               |
-# PROCESSO: Converte as coordenadas de DMS  |
-# para DD.                                  |
-# RETORNO: Coodenadas em DD.                |
-#############################################
-
-
 def dms_para_dd(dms, ref):
     graus =   dms[0][0] / dms[0][1]
     minutos = dms[1][0] / dms[1][1] / 60
