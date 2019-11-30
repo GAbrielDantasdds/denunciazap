@@ -4,7 +4,6 @@ Projeto WhatsApp Dice
 *<h4> Arquivos que devem estar no celular: </h4>*
 
 <ol>
-<li> atual.py</li>
 <li> atualizar_banco.py</li>
 <li> banco.py</li>
 <li> cliente.py</li>
@@ -41,3 +40,13 @@ def enviar(dado):
   <li>Após, rode o script *atualizar_mapa.py* na sua máquina</li>
   <li>Agora é só rodar o script *main.py* no celular e voalá</li>
 <ol>
+
+<h1>Explicando os arquivos</h1>
+banco.py: tem a função criar() que gera o banco de dados, não retorna nada e não tem parâmetros.
+atualizar_banco.py: tem a função atualizar() que recebe o nome de uma imagem como parâmetro e retorna True.
+cliente.py: tem a função enviar() que recebe uma string(valores de lat e long no caso) como parâmetro.
+main.py: tem três funções:
+<ol>
+  <li></li>
+</ol>
+
