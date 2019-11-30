@@ -8,8 +8,8 @@ def receber():
     serv_socket.bind(addr) 
     serv_socket.listen(10)  
     con, cliente = serv_socket.accept() 
-    mapa = con.recv(1024)
-    mapa = bytes.decode(mapa)
+    coordenada = con.recv(1024)
+    coordenada = bytes.decode(coordenada)
     serv_socket.close()
-    return mapa
+    return coordenada
 
