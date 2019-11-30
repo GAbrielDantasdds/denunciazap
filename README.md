@@ -1,2 +1,2 @@
-# denunciazap
-Denúncia com o Whatsapp
+# Scripts para denúncia com o WhatsApp
+Projeto WhatsApp Dice
