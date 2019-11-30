@@ -35,3 +35,9 @@ def enviar(dado):
     [...]
 ```
 
+<h1>Tutorial para realizar denúncias</h1>
+<ol>
+  <li>Primeiramente, rode o script *banco.py* para criar o banco de imagens (imagens.bd)</li>
+  <li>Após, rode o script *atualizar_mapa.py* na sua máquina</li>
+  <li>Agora é só rodar o script *main.py* no celular e voalá</li>
+<ol>
