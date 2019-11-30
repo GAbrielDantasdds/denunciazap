@@ -27,3 +27,11 @@ _Todas as bibliotecas são nativas do Python3._
 
 Obs.: *No arquivo *cliente.py* a variável ip deve ser atualizada conforme
 endereço de ip da sua máquina.*
+
+Trecho do código a ser alterado:
+```
+def enviar(dado):
+    ip = 'endereço de ip da sua máquina' 
+    [...]
+```
+
