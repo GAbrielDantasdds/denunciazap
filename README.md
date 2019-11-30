@@ -36,24 +36,24 @@ def enviar(dado):
 
 <h1>Tutorial para realizar denúncias</h1>
 <ol>
-  <li>Primeiramente, rode o script *banco.py* para criar o banco de imagens (imagens.bd)</li>
-  <li>Após, rode o script *atualizar_mapa.py* na sua máquina</li>
-  <li>Agora é só rodar o script *main.py* no celular e voalá</li>
+  <li>Primeiramente, rode o script <b>banco.py</b> para criar o banco de imagens (imagens.bd)</li>
+  <li>Após, rode o script <b>atualizar_mapa.py</b> na sua máquina</li>
+  <li>Agora é só rodar o script <b>main.py</b> no celular e voalá</li>
 </ol>
 
 <h1>Explicando os arquivos e principais funções e procedimentos </h1>
-banco.py: tem a função criar() que gera o banco de dados, não retorna nada e não tem parâmetros.<br>
-atualizar_banco.py: tem a função atualizar() que recebe o nome de uma imagem como parâmetro e retorna True <br>
-cliente.py: tem a função enviar() que recebe uma string(valores de lat e long no caso) como parâmetro.<br>
-main.py: tem duas funções e um procedimento:
+<b>banco.py</b>: tem a função criar() que gera o banco de dados, não retorna nada e não tem parâmetros.<br>
+<b>atualizar_banco.py</b>: tem a função atualizar() que recebe o nome de uma imagem como parâmetro e retorna True <br>
+<b>cliente.py</b>: tem a função enviar() que recebe uma string(valores de lat e long no caso) como parâmetro.<br>
+<b>main.py</b>: tem duas funções e um procedimento:
 <ol>
   <li>dms_para_dd(dms, ref) que recebe as coordenadas em Graus Minutos e Seg (dms) e a Referência (ref) e retorna
   uma coordenada em Graus decimais (dd).</li>
   <li>coordenadas(nome_imagem) que recebe o nome de uma imagem (ou o caminho dela) e extrai as coordenadas dela (porém em dms).</li>
   <li>conexao() que chama as demais funções.
 </ol><br>
-servidor.py: tem a função receber(). Quando ela é chamada, fica esperando receber algo via rede com o tamanho máximo
+<b>servidor.py</b>: tem a função receber(). Quando ela é chamada, fica esperando receber algo via rede com o tamanho máximo
 de 1024 bytes.<br>
-verificador.py: tem a função verificar(nome) que recebe como parâmetro o nome de uma imagem. retorna: True, se a imagem estiver no banco imagens.bd. False caso contrário.
+<b>verificador.py</b>: tem a função verificar(nome) que recebe como parâmetro o nome de uma imagem. retorna: True, se a imagem estiver no banco imagens.bd. False caso contrário.
 
 
