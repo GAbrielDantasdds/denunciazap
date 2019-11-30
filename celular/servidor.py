@@ -10,7 +10,6 @@ def receber():
     con, cliente = serv_socket.accept() 
     mapa = con.recv(1024)
     mapa = bytes.decode(mapa)
-    print(mapa)
     serv_socket.close()
     return mapa
 
